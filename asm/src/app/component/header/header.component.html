@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<header>
+    <nav>
+        <ul class="main-menu" id="mainmenu">
+            <li id="logo"><a href=""><img style="width:103px; height: 35px;" src="https://assets-global.website-files.com/5fb85f26f126ce08d792d2d9/6362dd5e926122938ff89ade_Apple_Rainbow_Logo_Color_Scheme.jpg" alt=""></a></li>
+            <input type="text" class="col-3" [(ngModel)]='keyword'><button style="margin-left: 20px; color: black; padding: 0 10px; background: white;"  (click)="goProducts()" >Tìm kiếm</button>
+            <li><a href="#" routerLink="/cart"><mat-icon matSuffix>shopping_cart</mat-icon></a></li>
+            <li><a routerLink="/sign-in"><mat-icon matSuffix>login</mat-icon></a></li>
+            <li><button style="color: white;" (click)="logout()" *ngIf="user == null">Logout</button></li>
+        </ul>
+    </nav>
+</header>

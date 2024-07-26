@@ -1,0 +1,10 @@
+<div class="container text-center">
+    <div class="row align-items-start p-4">
+        <div class="col item-cate" *ngFor='let p of listloai'>
+            <a href="loai/{{p.id}}">
+                <img src="{{p.img}}" alt="">
+                <span>{{p.name}}</span>
+            </a>
+                </div>
+    </div>
+  </div>

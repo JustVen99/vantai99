@@ -1,0 +1,21 @@
+
+    <div class="center">
+      <h1>Login</h1>
+      <form #loginForm="ngForm" (ngSubmit)="onLogin(loginForm.value)">
+        <div class="txt_field">
+          <input type="email" id="email" name="email" ngModel required email #email="ngModel">
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" id="password" name="password" ngModel required #password="ngModel">
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <input type="submit" [disabled]="loginForm.invalid">
+        <div class="signup_link">
+          Not a member? <a routerLink="/sign-up">Signup</a>
+        </div>
+      </form>
+    </div>

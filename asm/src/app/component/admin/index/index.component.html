@@ -1,0 +1,14 @@
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+      <!-- <li class="page-item" style="cursor: pointer;"><a class="page-link" (click)="prePagi()"
+          [class.disabled]="pageCurrent <= 1">Previous</a></li> -->
+      <li class="page-item" *ngFor="let page of arr" style="cursor: pointer;"
+        [class.active]="pageCurrent === page">
+        <a class="page-link" (click)="onPageChange(page)">{{ page }}</a>
+      </li>
+      <!-- <li class="page-item" style="cursor: pointer;">
+        <a class="page-link" (click)="nextPagi()" [class.disabled]="pageCurrent >= totalPages">Next</a>
+      </li> -->
+    </ul>
+  </nav>
+

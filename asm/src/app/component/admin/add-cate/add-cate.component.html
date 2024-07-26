@@ -1,0 +1,79 @@
+<script defer src="https://unpkg.com/alpinejs@3.10.2/dist/cdn.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" />
+
+<!-- page -->
+<main class="min-h-screen w-full bg-gray-100 text-gray-700" x-data="layout">
+    <!-- header page -->
+    <header class="flex w-full items-center justify-between border-b-2 border-gray-200 bg-white p-2">
+        <!-- logo -->
+        <div class="flex items-center space-x-2">
+            <button type="button" class="text-3xl"></button>
+            <div>Hi Admin</div>
+        </div>
+
+        <!-- button profile -->
+        <div>
+            <button class="flex items-center space-x-2 transition hover:text-blue-600">
+                <div>Log Out</div>
+            </button>
+        </div>
+    </header>
+
+    <div class="flex">
+        <!-- aside -->
+        <aside class="flex w-72 flex-col space-y-2 border-r-2 border-gray-200 bg-white p-2" style="height: 90.5vh"
+            x-show="asideOpen">
+            <a routerLink="/admin/sanpham" class="flex items-center space-x-1 rounded-md px-2 py-3 hover:bg-gray-100 hover:text-blue-600">
+                <span class="text-2xl"><i class="bx bx-list-ul"></i></span>
+                <span>Danh sách sản phẩm</span>
+            </a>
+
+            <a routerLink="/admin/loai" class="flex items-center space-x-1 rounded-md px-2 py-3 hover:bg-gray-100 hover:text-blue-600">
+                <span class="text-2xl"><i class="bx bxs-category"></i></span>
+                <span>Loại hàng</span>
+            </a>
+
+            <a routerLink="#" class="flex items-center space-x-1 rounded-md px-2 py-3 hover:bg-gray-100 hover:text-blue-600">
+                <span class="text-2xl"><i class="bx bx-line-chart"></i></span>
+                <span>Thống kê</span>
+            </a>
+
+            <a routerLink="#" class="flex items-center space-x-1 rounded-md px-2 py-3 hover:bg-gray-100 hover:text-blue-600">
+                <span class="text-2xl"><i class="bx bx-user"></i></span>
+                <span>Khách hàng</span>
+            </a>
+
+            <a routerLink="#" class="flex items-center space-x-1 rounded-md px-2 py-3 hover:bg-gray-100 hover:text-blue-600">
+                <span class="text-2xl"><i class="bx bx-detail"></i></span>
+                <span>Đơn hàng</span>
+            </a>
+        </aside>
+
+        <!-- main content page -->
+        <div class="w-full p-4"><div class="card m-3">
+            <div class="card-header">
+                <i class="fas fa-table me-1"></i>
+                Thêm loại sản phẩm
+            </div>
+            <div class="content_sp">
+                <form class="d-flex flex-column gap-3" [formGroup]="categoryForm" (ngSubmit)="onSubmit()">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="row"><span>ID</span></div>
+                            <input name="id" type="number"  formControlName="id">
+                        </div>
+                        <div class="col-3">
+                            <div class="row"><span>Tên loại sản phẩm</span></div>
+                            <input name="name" type="text"  formControlName="name">
+                        </div>
+                        <div class="col-3">
+                            <div class="row"><span>Hình ảnh</span></div>
+                            <input name="img" type="text" value=""  formControlName="img">
+                        </div>
+                    </div>
+                    <div class="">
+                        <button type="submit">Thêm</button>
+                    </div>
+                </form>
+            </div>
+    </div>
