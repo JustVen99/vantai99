@@ -1,0 +1,99 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "sex": "nam",
+            "nameUser": "Tường Thế Duy",
+            "birthDay": {
+                "day": "18",
+                "month": "08",
+                "year": "1997"
+            },
+            "phoneNumber": "0976864022",
+            "email": "vantai@gmail.com",
+            "password": "vantai",
+            "kind": "1",
+            "image": "duy.jpg"
+        },
+        {
+            "id": 2,
+            "sex": "nu",
+            "nameUser": "Hải Anh",
+            "birthDay": {
+                "day": "31",
+                "month": "8",
+                "year": "2003"
+            },
+            "phoneNumber": "09768640225",
+            "email": "duytuong@gmail.com",
+            "password": "duytuong",
+            "kind": "0",
+            "image": "hai.jpg"
+        },
+        {
+            "id": 3,
+            "sex": "nam",
+            "nameUser": "nguyễn trung tín",
+            "birthDay": {
+                "day": "15",
+                "month": "12",
+                "year": "2022"
+            },
+            "phoneNumber": "0379513546",
+            "kind": "1",
+            "image": "14227884.jpeg",
+            "email": "tin123@gmail.com",
+            "password": "tin123"
+        },
+        {
+            "id": 4,
+            "sex": "nu",
+            "nameUser": "tường thu hà",
+            "birthDay": {
+                "day": "11",
+                "month": "12",
+                "year": "1997"
+            },
+            "phoneNumber": "0379513546",
+            "kind": "0",
+            "image": "14227884.jpeg",
+            "email": "duyttps26271@fpt.edu.vn",
+            "password": "123"
+        },
+        {
+            "id": 5,
+            "sex": "nam",
+            "nameUser": "tường duy 123",
+            "birthDay": {
+                "day": "18",
+                "month": "09",
+                "year": "1996"
+            },
+            "phoneNumber": "0976845136",
+            "kind": "1",
+            "image": "duy.jpg",
+            "email": "ttd@gmail.com",
+            "password": "duytuong"
+        },
+        {
+            "id": 6,
+            "sex": "nam",
+            "nameUser": "tuong duy13424",
+            "birthDay": {
+                "day": "18",
+                "month": "09",
+                "year": "1997"
+            },
+            "phoneNumber": "0976864022",
+            "kind": "1",
+            "image": "duy.jpg",
+            "email": "duy197@gmail.com",
+            "password": "duytuong"
+        },
+        {
+            "id": 7,
+            "email": "tpamorning@gmail.com",
+            "password": "12345678"
+        }
+    ]
+}

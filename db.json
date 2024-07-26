@@ -1,0 +1,210 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Iphone",
+      "img": "https://beta.topzone.vn/images/desktop/IP_Desktop.png"
+    },
+    {
+      "id": 2,
+      "name": "Macbook",
+      "img": "https://beta.topzone.vn/images/desktop/Mac_Desktop.png"
+    },
+    {
+      "id": 3,
+      "name": "Ipad",
+      "img": "https://beta.topzone.vn/images/desktop/IPad_Desktop.png"
+    },
+    {
+      "id": 4,
+      "name": "Apple-Watch",
+      "img": "https://beta.topzone.vn/images/desktop/Watch_Desktop.png"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "Iphone 15 Pro Max 256GB",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/305658/s16/iphone-15-pro-max-blue-thumbtz-650x650.png",
+      "price": 33990000,
+      "cat_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Iphone 15 128GB",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/299033/s16/iphone-15-pro-blue-thumbtz-650x650.png",
+      "price": 22990000,
+      "cat_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Iphone 14 Pro Max 128GB",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/42/251192/s16/iphone-14-pro-max-purple-1-650x650.png",
+      "price": 25990000,
+      "cat_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Iphone 13 128GB",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/223602/s16/iphone-13-blue-650x650.png",
+      "price": 16490000,
+      "cat_id": 1
+    },
+    {
+      "id": 5,
+      "name": "Iphone 11 64GB",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/42/153856/s16/iphone-11-black-1-1-2-3-650x650.png",
+      "price": 10190000,
+      "cat_id": 1
+    },
+    {
+      "id": 6,
+      "name": "Iphone 14 Pro 128GB",
+      "image": "https://cdn.tgdd.vn/Products/Images/42/247508/s16/iPhone-14-Pro-topzone%20(3)-650x650.png",
+      "price": 23890000,
+      "cat_id": 1
+    },
+    {
+      "id": 7,
+      "name": "Iphone 14 128GB",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/42/240259/s16/iphone-14-red-1-650x650.png",
+      "price": 18990000,
+      "cat_id": 1
+    },
+    {
+      "id": 8,
+      "name": "Iphone 14 Plus 128GB",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/42/245545/s16/iphone-14-plus-yellow-1-650x650.png",
+      "price": 21590000,
+      "cat_id": 1
+    },
+    {
+      "id": 9,
+      "name": "Apple Watch SE 2023 40 GPS 40mm Sport Band",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/7077/316010/s16/apple-watch-se-lte-2023-vien-nhom-day-silicone-trang-tb-650x650.png",
+      "price": 33990000,
+      "cat_id": 4
+    },
+    {
+      "id": 10,
+      "name": "Apple Watch SE 2022 GPS 40mm",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/7077/289612/s16/apple-watch-se-2022-gps-40mm-thumbtz-1-1-650x650.png",
+      "price": 5890000,
+      "cat_id": 4
+    },
+    {
+      "id": 11,
+      "name": "Apple Watch SE 2022 GPS 40mm",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/7077/289799/s16/apple-watch-se-2022-lte-40mm-den-xanh-thumbtz-1-2-650x650.png",
+      "price": 6690000,
+      "cat_id": 4
+    },
+    {
+      "id": 12,
+      "name": "Apple Watch Series 8 GPS 41mm",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/7077/289610/s16/apple-watch-s8-gps-45mm-black-thumbtz-1-1-650x650.png",
+      "price": 8990000,
+      "cat_id": 4
+    },
+    {
+      "id": 13,
+      "name": "Apple Watch Ultra GPS + Cellular 49mm Ocean Band",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/7077/314937/s16/apple-watch-ultra-lte-49mm-vien-titanium-day-alpine-size-l-nau-tb-650x650.png",
+      "price": 19900000,
+      "cat_id": 4
+    },
+    {
+      "id": 14,
+      "name": "Apple Watch Ultra GPS + Cellular 49mm Alpine Loop size M",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/7077/314714/s16/apple-watch-ultra-lte-49mm-vien-titanium-day-trail-size-s-m-3-1-2-650x650.png",
+      "price": 19900000,
+      "cat_id": 4
+    },
+    {
+      "id": 15,
+      "name": "Apple Watch Series 8 GPS 45mm",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/7077/314696/s16/apple-watch-s9-lte-vien-thep-khong-gi-day-thep-1-650x650.png",
+      "price": 9990000,
+      "cat_id": 4
+    },
+    {
+      "id": 16,
+      "name": "Apple Watch SE 2023 GPS + Cellular 40mm Sport Band",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/7077/316014/s16/apple-watch-se-2023-vien-nhom-day-silicone-xanh-den-tb-650x650.png",
+      "price": 7690000,
+      "cat_id": 4
+    },
+    {
+      "id": 17,
+      "name": "MacBook Air 13 inch M1 2020 8CPU/8GB/256GB/7GPU",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/44/289472/s16/mac-air-13-m2-xam-650x650.png",
+      "price": 19490000,
+      "cat_id": 2
+    },
+    {
+      "id": 18,
+      "name": "MacBook Air 13 inch M2 2022 8CPU/8GB/256GB/8GPU",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/44/289441/s16/mac-air-m2-xanh-650x650.png",
+      "price": 26790000,
+      "cat_id": 2
+    },
+    {
+      "id": 19,
+      "name": "MacBook Pro 13 inch M2 2022 8CPU/8GB/256GB/10GPU",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/44/282827/s16/mac-air-m2-vang-650x650.png",
+      "price": 29990000,
+      "cat_id": "2"
+    },
+    {
+      "id": 20,
+      "name": "MacBook Air 15 inch M2 2023 8CPU/8GB/256GB/10GPU",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/44/309018/s16/mac-air-15-m2-xam-650x650.png",
+      "price": 31490000,
+      "cat_id": 2
+    },
+    {
+      "id": 21,
+      "name": "MacBook Air 13 inch M2 2022 8CPU/16GB/512GB/10GPU",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/44/309018/s16/mac-air-15-m2-xam-650x650.png",
+      "price": 39790000,
+      "cat_id": 2
+    },
+    {
+      "id": 22,
+      "name": "MacBook Air 13 inch M2 2022 8CPU/16GB/512GB/10GPU",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/44/289472/s16/mac-air-13-m2-xam-650x650.png",
+      "price": 19490000,
+      "cat_id": 2
+    },
+    {
+      "id": 23,
+      "name": "iMac 24 inch M1 2021 8CPU/16GB/512GB/10GPU",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/44/282828/s16/mac-pro-13-m2-ba%CC%A3c-650x650.png",
+      "price": 37990000,
+      "cat_id": 2
+    },
+    {
+      "id": 24,
+      "name": "Mac mini M1 2020 8CPU/8GB/512GB/8GPU",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/5698/321443/s16/mac-mini-m2-z16k-thumb-650x650.png",
+      "price": 13990000,
+      "cat_id": 2
+    },
+    {
+      "id": 25,
+      "name": "iPad 9 Wifi 64GB",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/522/247517/s16/ipad-gen-9-sliver-650x650.png",
+      "price": 7490000,
+      "cat_id": 3
+    },
+    {
+      "id": 26,
+      "name": "iPad 10 WiFi 64GB",
+      "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100,s_300x300/https://cdn.tgdd.vn/Products/Images/522/294103/s16/ipad-gen-10-sliver-650x650.png",
+      "price": 11290000,
+      "cat_id": 3
+    }
+  ],
+  "orders": [],
+  "order_details": []
+}
